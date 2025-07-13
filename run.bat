@@ -56,7 +56,6 @@ echo Creating configuration files...
 
 if not exist configs.json (
     echo {> configs.json
-    echo   "timeZone": "en-US",>> configs.json
     echo   "rotateProxy": false,>> configs.json
     echo   "skipInvalidProxy": false,>> configs.json
     echo   "proxyRotationInterval": 2,>> configs.json
